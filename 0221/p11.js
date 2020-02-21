@@ -33,3 +33,5 @@ function User(name, department) {
 
 var user = new User('Grace', "Engineering");
 console.log(user.department);
+user.department = 'Marketing';
+user.greeting();
